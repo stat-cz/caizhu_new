@@ -1,13 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stat-cz.github.io</id>
-    <title>CV</title>
-    <updated>2020-04-29T19:59:27.929Z</updated>
+    <title></title>
+    <updated>2020-04-29T21:40:07.976Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://stat-cz.github.io"/>
     <link rel="self" href="https://stat-cz.github.io/atom.xml"/>
-    <subtitle>caizhu website</subtitle>
     <logo>https://stat-cz.github.io/images/avatar.png</logo>
     <icon>https://stat-cz.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, CV</rights>
+    <rights>All rights reserved 2020, </rights>
+    <entry>
+        <title type="html"><![CDATA[CV]]></title>
+        <id>https://stat-cz.github.io/post/cv/</id>
+        <link href="https://stat-cz.github.io/post/cv/">
+        </link>
+        <updated>2020-04-29T15:34:44.000Z</updated>
+        <content type="html"><![CDATA[<table border="0">
+  <tr>
+    <td width="75%">
+      <h1> HUANG CAIZHU</h1>
+      <p><b>Sept. 17, 1993</b></p>
+      <p><b>+086-13590026844</b></p>
+      <p><b>Email：caizhu.huang@studenti.unipd.it</b></p>
+      <p><b>Address：No. 230 Waihuai road, Guangzhou, P.R. China, 510006</b></p>
+    </td>
+    <td width="25%">
+      <img src="/22.jpg" width="100%">    
+    </td>
+  </tr>
+</table>
+<h3 id="education-background">EDUCATION Background</h3>
+<h4 id="spe2019-present-university-of-padova-phd-student">Spe.2019-Present University of Padova PhD student</h4>
+<p>Theory and Method Inference, Time Series Analysis, Spatial Statistics, Functional Analysis, Probability Theory</p>
+<h4 id="sep-2016-july-2019-guangzhou-university-master-student">Sep. 2016-July 2019 Guangzhou University Master student</h4>
+<p>Advanced Probability, Advanced Mathematical Statistics, Regression Analysis, Machine Learning, Data Mine, Survival Analysis</p>
+<h3 id="research-interest">RESEARCH INTEREST</h3>
+<p>Likelihood Inference, High-dimensional data, Missing data</p>
+<h3 id="publications">PUBLICATIONS</h3>
+<p>[1] Cui Xia, Caizhu Huang and etc, <a href="https://stat-cz.github.io/Paper/">Temporal and spatial variations of net anthropogenic nitrogen inputs (NANI) in the Pearl River Basin of China from 1986 to 2015<br>
+</a>, Plos one, 2020, 15(2): e0228683.</p>
+]]></content>
+    </entry>
 </feed>
