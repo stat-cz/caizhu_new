@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stat-cz.github.io</id>
     <title></title>
-    <updated>2020-04-29T21:52:06.018Z</updated>
+    <updated>2020-04-29T22:03:47.256Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://stat-cz.github.io"/>
     <link rel="self" href="https://stat-cz.github.io/atom.xml"/>
@@ -14,7 +14,7 @@
         <id>https://stat-cz.github.io/post/cv/</id>
         <link href="https://stat-cz.github.io/post/cv/">
         </link>
-        <updated>2020-04-28T03:34:44.000Z</updated>
+        <updated>2020-04-27T15:34:44.000Z</updated>
         <content type="html"><![CDATA[<table border="0">
   <tr>
     <td width="75%">
@@ -25,7 +25,7 @@
       <p><b>Address：No. 230 Waihuai road, Guangzhou, P.R. China, 510006</b></p>
     </td>
     <td width="25%">
-      <img class="avatar" src="https://stat-cz.github.io/images/22.jpg?v=1588196333578" alt="" width="100%" >
+      <img class="22" src="https://stat-cz.github.io/images/22.jpg?v=1588196333578" alt="" width="100%" >
     </td>
   </tr>
 </table>
