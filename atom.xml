@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stat-cz.github.io</id>
     <title>CV</title>
-    <updated>2020-04-29T19:12:16.611Z</updated>
+    <updated>2020-04-29T19:56:12.001Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://stat-cz.github.io"/>
     <link rel="self" href="https://stat-cz.github.io/atom.xml"/>
@@ -10,11 +10,4 @@
     <logo>https://stat-cz.github.io/images/avatar.png</logo>
     <icon>https://stat-cz.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, CV</rights>
-    <entry>
-        <title type="html"><![CDATA[CV]]></title>
-        <id>https://stat-cz.github.io/post/cv/</id>
-        <link href="https://stat-cz.github.io/post/cv/">
-        </link>
-        <updated>2020-04-26T23:05:34.000Z</updated>
-    </entry>
 </feed>
