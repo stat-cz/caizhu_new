@@ -1,121 +1,75 @@
+---
+layout: default
+---
 
-<html>
-  <head>
-    
-<meta charset="utf-8" >
+<div id="ace-content" class="ace-container-shift">
+    <div class="ace-container">
+        <div id="ace-nav-wrap" class="hidden-sm hidden-xs">
+            <div class="ace-nav-cont">
+                <div id="ace-nav-scroll">
+                    <nav id="ace-nav" class="ace-nav">
+                        <ul class="clear-list">
+                            <li>
+                              <a href="index.html" data-tooltip="Home"><img class="avatar avatar-42" src="{{ '/styles/img/show-star.png' | prepend: site.baseurl }}" alt=""></a>
+                            </li>
+                            <li>
+                              <a href="#basic_info" data-tooltip="基本信息"><span class="ace-icon ace-icon-home"></span></a>
+                            </li>
+                            <li>
+                              <a href="#profetional" data-tooltip="职业技能"><span class="ace-icon ace-icon-experience"></span></a>
+                            </li>
 
-<title></title>
-<meta name="description" content="">
+                            <li>
+                              <a href="#education" data-tooltip="教育经历"><span class="ace-icon ace-icon-portfolio"></span></a>
+                            </li>
+                            
+                            <li>
+                              <a href="#experience" data-tooltip="工作经历"><span class="ace-icon ace-icon-references"></span></a>
+                            </li>
+                            <li>
+                              <a href="#certification" data-tooltip="获得证书"><span class="ace-icon ace-icon-blog"></span></a>
+                            </li>
+                            <li>
+                              <a href="#personal_project" data-tooltip="个人作品"><span class="ace-icon ace-icon-snowflake-o"></span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+                <div id="ace-nav-tools" class="hidden">
+                    <span class="ace-icon ace-icon-dots-three-horizontal"></span>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://stat-cz.github.io/caizhu_new//favicon.ico?v=1588278311005">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://stat-cz.github.io/caizhu_new//styles/main.css">
+                    <button id="ace-nav-arrow" class="clear-btn">
+                        <span class="ace-icon ace-icon-chevron-thin-down"></span>
+                    </button>
+                </div>
+            </div>
 
+            <!-- <div class="ace-nav-btm"></div> -->
+        </div><!-- .ace-nav-wrap -->
 
+        <div class="ace-paper-stock">
+            <main class="ace-paper clearfix">
+                <div class="ace-paper-cont clear-mrg">
+                    <!-- START: PAGE CONTENT -->
+                    <div class="padd-box clear-mrg">
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+                    {% include resumer_01-basic.html %}
 
+                    {% include resumer_02-profetional.html %}
 
+                    {% include resumer_03-education.html %}
 
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://stat-cz.github.io/caizhu_new/">
-        <img class="avatar" src="https://stat-cz.github.io/caizhu_new//images/avatar.png?v=1588278311005" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://stat-cz.github.io/caizhu_new/">
-        <h1 class="site-title"></h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
+                    {% include resumer_04-experience.html %}
 
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-    </div>
-  </div>
-</transition>
+                    {% include resumer_05-certification.html %}
 
-
-      <div class="content-container">
-        
-        
-<section class="post-item">
-    <div class="content">
-      <a href="https://stat-cz.github.io/caizhu_new/post/online/">
-        <h2 class="post-title">online</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2020-04-30</span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-
-
-<div class="pagination-container">
-  
-  
-</div>
-
-
-      </div>
-
-      <div class="site-footer">
-  <div class="slogan"></div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-   | <a class="rss" href="https://stat-cz.github.io/caizhu_new//atom.xml" target="_blank">RSS</a>
-</div>
-
-
-    </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-
-
-  </body>
-</html>
+                    {% include resumer_06-personal_project.html %}
+                        
+                    </div><!-- .padd-box -->
+                <!-- END: PAGE CONTENT -->
+                </div><!-- .ace-paper-cont -->
+            </main><!-- .ace-paper -->
+        </div><!-- .ace-paper-stock -->
+    </div><!-- .ace-container -->
+</div><!-- #ace-content -->
