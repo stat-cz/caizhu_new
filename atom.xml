@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stat-cz.github.io</id>
     <title></title>
-    <updated>2020-04-29T22:06:07.153Z</updated>
+    <updated>2020-04-30T17:19:50.843Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://stat-cz.github.io"/>
     <link rel="self" href="https://stat-cz.github.io/atom.xml"/>
@@ -14,7 +14,7 @@
         <id>https://stat-cz.github.io/post/cv/</id>
         <link href="https://stat-cz.github.io/post/cv/">
         </link>
-        <updated>2020-04-27T15:34:44.000Z</updated>
+        <updated>2020-04-27T09:34:44.000Z</updated>
         <content type="html"><![CDATA[<table border="0">
   <tr>
     <td width="75%">
@@ -37,7 +37,7 @@
 <h3 id="research-interest">RESEARCH INTEREST</h3>
 <p>Likelihood Inference, High-dimensional data, Missing data</p>
 <h3 id="publications">PUBLICATIONS</h3>
-<p>[1] Cui Xia, Caizhu Huang and etc, <a href="https://stat-cz.github.io/Paper/">Temporal and spatial variations of net anthropogenic nitrogen inputs (NANI) in the Pearl River Basin of China from 1986 to 2015<br>
+<p>[1] Cui Xia, Caizhu Huang and etc, <a href="https://image-lin.oss-cn-shenzhen.aliyuncs.com/open/test.pdf">Temporal and spatial variations of net anthropogenic nitrogen inputs (NANI) in the Pearl River Basin of China from 1986 to 2015<br>
 </a>, Plos one, 2020, 15(2): e0228683.</p>
 ]]></content>
     </entry>
