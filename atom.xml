@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://stat-cz.github.io</id>
+    <id>https://stat-cz.github.io/caizhu_new/</id>
     <title></title>
-    <updated>2020-04-30T17:19:50.843Z</updated>
+    <updated>2020-04-30T20:26:05.002Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://stat-cz.github.io"/>
-    <link rel="self" href="https://stat-cz.github.io/atom.xml"/>
-    <logo>https://stat-cz.github.io/images/avatar.png</logo>
-    <icon>https://stat-cz.github.io/favicon.ico</icon>
+    <link rel="alternate" href="https://stat-cz.github.io/caizhu_new/"/>
+    <link rel="self" href="https://stat-cz.github.io/caizhu_new/atom.xml"/>
+    <logo>https://stat-cz.github.io/caizhu_new/images/avatar.png</logo>
+    <icon>https://stat-cz.github.io/caizhu_new/favicon.ico</icon>
     <rights>All rights reserved 2020, </rights>
     <entry>
+        <title type="html"><![CDATA[online]]></title>
+        <id>https://stat-cz.github.io/caizhu_new/post/online/</id>
+        <link href="https://stat-cz.github.io/caizhu_new/post/online/">
+        </link>
+        <updated>2020-04-30T14:24:58.000Z</updated>
+        <content type="html"><![CDATA[<p>online</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[CV]]></title>
-        <id>https://stat-cz.github.io/post/cv/</id>
-        <link href="https://stat-cz.github.io/post/cv/">
+        <id>https://stat-cz.github.io/caizhu_new/post/cv/</id>
+        <link href="https://stat-cz.github.io/caizhu_new/post/cv/">
         </link>
         <updated>2020-04-27T09:34:44.000Z</updated>
         <content type="html"><![CDATA[<table border="0">
